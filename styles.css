@@ -35,7 +35,7 @@ ul {
 
 .topnav {
   align-items: center;
-  padding: .2em;
+  padding: 0.2em;
 }
 
 .navi ul {
@@ -43,7 +43,7 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   font-size: 18px;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .navi a {
@@ -73,7 +73,7 @@ h1 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
   margin-bottom: 10px;
 }
 
@@ -97,7 +97,7 @@ h1 {
   align-items: flex-start;
   width: 95%;
   padding-top: 5px;
-  list-style: none
+  list-style: none;
 }
 
 .socials li {
