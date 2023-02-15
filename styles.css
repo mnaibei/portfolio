@@ -68,7 +68,7 @@ h1 {
   width: 327px;
   left: 24px;
   top: 114px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -83,6 +83,11 @@ h1 {
   left: 24px;
   top: 276px;
   margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: #344563;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .con {
@@ -94,7 +99,7 @@ h1 {
   display: flex;
   align-items: flex-start;
   width: 95%;
-  padding-top: 5px;
+  /* padding-top: 5px; */
   list-style: none;
 }
 
@@ -102,7 +107,7 @@ h1 {
   display: flex;
   padding: 20px;
   align-self: flex-start;
-  margin-left: -16px;
+  margin-left: -19px;
 }
 
 .socials a {
