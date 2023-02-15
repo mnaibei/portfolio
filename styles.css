@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0.05em;
+  padding: 0.05em;
   box-sizing: border-box;
   font-size: 20px;
 }
@@ -15,7 +15,7 @@ body {
   display: flex;
   background: #ffff;
   flex: 1;
-  border-radius: 0vw 0vw 0vw 30vw;
+  border-radius: 0.05vw 0.05vw 0.05vw 30vw;
   flex-direction: column;
   background-image: url("images/header-shapes-mobile.png");
   background-repeat: no-repeat;
@@ -88,8 +88,6 @@ h1 {
 .con {
   height: 24px;
   width: 117px;
-  left: 0px;
-  top: 0px;
 }
 
 .socials {
