@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -7,16 +7,14 @@
 
 body {
   /* background: #ffff; */
-  background: #E5E5E5;;
+  background: #e5e5e5;
   min-height: 100vh;
-
 }
 
 .container {
   display: flex;
   background: #ffff;
   flex: 1;
-  /* border: 2px solid red; */
   border-radius: 0vw 0vw 0vw 30vw;
   flex-direction: column;
   background-image: url("images/header-shapes-mobile.png");
@@ -25,7 +23,6 @@ body {
   position: absolute;
   width: 100%;
   min-height: 100vh;
-
 }
 
 a:link {
@@ -39,18 +36,13 @@ ul {
 .topnav {
   align-items: center;
   padding: .2em;
-  /* border: 2px solid; */
-  /* height: 100px; */
 }
-
 
 .navi ul {
   display: flex;
-  /* border: 2px solid; */
   flex-direction: row;
   justify-content: space-between;
   font-size: 18px;
-  /* margin: 0%; */
   padding: .5rem;
 }
 
@@ -60,16 +52,14 @@ ul {
   font-weight: 700;
 }
 
-.logo img{
+.logo img {
   border: 2px solid;
   height: 60px;
   border-radius: 50%;
 }
 
-.intro{
-  /* border: 2px solid red; */
+.intro {
   margin-top: 206px;
-  /* margin-bottom: 362px; */
   padding: 20px;
 }
 
@@ -78,14 +68,11 @@ h1 {
   width: 327px;
   left: 24px;
   top: 114px;
- 
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  /* display: flex; */
-  /* align-items: center; */
   color: #172B4D;
   margin-bottom: 10px;
 }
@@ -96,8 +83,6 @@ h1 {
   left: 24px;
   top: 276px;
   margin-bottom: 10px;
-  
-
 }
 
 .con {
@@ -105,29 +90,24 @@ h1 {
   width: 117px;
   left: 0px;
   top: 0px;
-  /* border: 2px solid ; */
- 
-
 }
 
 .socials {
   display: flex;
-  /* border: 2px solid red; */
   align-items: flex-start;
   width: 95%;
   padding-top: 5px;
   list-style: none
 }
 
-.socials li{
+.socials li {
   display: flex;
   padding: 20px;
   align-self: flex-start;
   margin-left: -16px;
-  /* position: absolute; */
 }
 
-.socials a{
+.socials a {
   text-decoration: none;
   color: #6070ff;
   font-weight: 700;
