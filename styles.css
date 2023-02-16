@@ -121,6 +121,10 @@ h1 {
   font-weight: 700;
 }
 
-.socials a:active, a:hover {
+a:hover {
+  fill: blue;
+}
+
+.socials a:active {
   fill: blue;
 }
