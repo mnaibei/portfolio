@@ -21,6 +21,7 @@ body {
   background-size: 100%;
   background-position: 100%;
   position: absolute;
+  overflow-x:hidden;
   width: 100%;
   min-height: 100vh;
 }
@@ -59,11 +60,11 @@ ul {
 }
 
 .intro {
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   margin-top: 50px;
   padding: 20px;
+  flex: 1;
 }
 
 h1 {
@@ -94,14 +95,17 @@ h1 {
 }
 
 .con {
+  /* border: 2px solid; */
   display: flex;
   flex-direction: row;
   color: #7f8cff;
 }
 
 .socials {
+  /* border: 2px solid; */
   display: flex;
   align-items: flex-start;
+  margin-left: 1vw;
   width: 95%;
   list-style: none;
 }
