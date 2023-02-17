@@ -21,7 +21,7 @@ body {
   background-size: 100%;
   background-position: 100%;
   position: absolute;
-  overflow-x:hidden;
+  overflow-x: hidden;
   width: 100%;
   min-height: 100vh;
 }
