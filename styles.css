@@ -133,7 +133,6 @@ a:hover {
 
 /* card 1 styling */
 .work-container {
-  /* border: 2px solid red; */
   border: 1px solid #cbcdd1;
   display: grid;
   grid-template-columns: auto;
@@ -141,8 +140,6 @@ a:hover {
   align-content: center;
   text-align: left;
   width: 95%;
-
-  /* margin-top: 910px; */
   margin-top: 110vh;
   margin-left: auto;
   margin-right: auto;
@@ -154,11 +151,24 @@ a:hover {
 }
 
 .portfolio-img {
-  /* border: 2px solid brown; */
   width: 339px;
   height: 220px;
   border-radius: 8px;
   margin-top: -9%;
+}
+
+h2 {
+  height: 150px;
+  width: 327px;
+  left: 24px;
+  top: 114px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-bottom: 10px;
 }
 
 .portfolio-img img {
@@ -168,7 +178,6 @@ a:hover {
 }
 
 .work-content {
-  /* border: 2px solid; */
   display: flex;
   flex-direction: column;
   font-family: 'Poppins', sans-serif;
@@ -176,8 +185,16 @@ a:hover {
   justify-content: flex-start;
 }
 
+.tonic0{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  height: 45px;
+}
+
 .tonic {
-  /* border: 2px solid; */
   width: 215px;
   height: 85px;
   font-style: normal;
@@ -202,27 +219,51 @@ a:hover {
 }
 
 .bac {
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 110px;
   text-align: center;
   color: #7a869a;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  margin-left: 35px;
+  margin-left: 15px;
+}
+
+.bac img {
+  height: 8px;
+  width: 8px;
+  left: 67px;
+  top: 12px;
+  border-radius: 0px;
 }
 
 .num {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50px;
   text-align: end;
   color: #7a869a;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  margin-left: 35px;
+  margin-left: 15px;
+}
+
+.num img {
+  height: 8px;
+  width: 8px;
+  left: 67px;
+  top: 12px;
+  border-radius: 0px;
 }
 
 .tonic-def {
-  /* border: 2px solid; */
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -232,18 +273,12 @@ a:hover {
 
 .stack {
   display: flex;
-
-  /* justify-content: space-around; */
   font-family: 'Poppins', sans-serif;
-
-  /* font-size: px; */
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
   color: #6070ff;
-
-  /* border: 2px solid; */
 }
 
 .html {
@@ -261,7 +296,6 @@ a:hover {
 }
 
 .css {
-  /* border: 2px solid; */
   display: flex;
   justify-content: center;
   margin-left: 4px;
@@ -297,9 +331,17 @@ a:hover {
   border: 2px solid #6070ff;
 }
 
+.button button:hover{
+  background-color: #6070FF;
+  color: #fff;
+}
+
+.button button:active{
+  background-color: #2230D2;
+}
+
 /* card 2  */
 .work-container2 {
-  /* border: 2px solid red; */
   border: 1px solid #cbcdd1;
   display: grid;
   grid-template-columns: auto;
@@ -307,8 +349,6 @@ a:hover {
   align-content: center;
   text-align: left;
   width: 95%;
-
-  /* margin-top: 910px; */
   margin-top: 15vh;
   margin-left: auto;
   margin-right: auto;
@@ -321,7 +361,6 @@ a:hover {
 
 /* card 3  */
 .work-container3 {
-  /* border: 2px solid red; */
   border: 1px solid #cbcdd1;
   display: grid;
   grid-template-columns: auto;
@@ -329,8 +368,6 @@ a:hover {
   align-content: center;
   text-align: left;
   width: 95%;
-
-  /* margin-top: 910px; */
   margin-top: 15vh;
   margin-left: auto;
   margin-right: auto;
@@ -343,7 +380,6 @@ a:hover {
 
 /* card 4  */
 .work-container4 {
-  /* border: 2px solid red; */
   border: 1px solid #cbcdd1;
   display: grid;
   grid-template-columns: auto;
@@ -351,8 +387,6 @@ a:hover {
   align-content: center;
   text-align: left;
   width: 95%;
-
-  /* margin-top: 910px; */
   margin-top: 15vh;
   margin-left: auto;
   margin-right: auto;
@@ -365,13 +399,16 @@ a:hover {
 
 /* about */
 .introd {
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   margin-top: 15vh;
   padding: 20px;
   background: #fff;
   border-radius: 0.05vw 30vw 0.05vw 0.05vw;
+}
+
+.introd h2{
+  margin-top: 150px;
 }
 
 .introd p {
@@ -389,7 +426,6 @@ a:hover {
 }
 
 .lang {
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   margin-top: 30px;
@@ -400,7 +436,7 @@ a:hover {
   justify-content: space-between;
 }
 
-.lang h2 {
+.lang h3 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -446,7 +482,6 @@ a:hover {
 }
 
 .skl {
-  /* border: 2px solid; */
   display: flex;
   height: 44px;
   margin-top: 10px;
