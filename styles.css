@@ -351,6 +351,7 @@ a:hover {
   align-content: center;
   text-align: left;
   width: 95%;
+
   /* margin-top: 910px; */
   margin-top: 15vh;
   margin-left: auto;
@@ -424,8 +425,7 @@ a:hover {
   background: #f7f7f9;
   border-radius: 8px;
   width: 303px;
-
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -434,6 +434,7 @@ a:hover {
 
 .frame {
   display: flex;
+  
   /* flex-direction: column; */
 
   /* border: 2px solid; */
