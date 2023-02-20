@@ -104,7 +104,7 @@ h1 {
 .socials {
   /* border: 2px solid; */
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   margin-left: 1vw;
   width: 95%;
   list-style: none;
@@ -274,7 +274,7 @@ h2 {
   color: #344563;
 }
 
-.stack {
+/* .stack {
   display: flex;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -282,6 +282,23 @@ h2 {
   letter-spacing: 0.03em;
   text-align: left;
   color: #6070ff;
+} */
+
+.stack{
+  /* border: 2px solid; */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #6070ff;
+  
+}
+
+.stack li{
+  border: 2px solid;
+  float: left;
+  margin-right: 10px;
 }
 
 .html {
