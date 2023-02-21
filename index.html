@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="styles.css">
     <title>Portfolio</title>
 </head>
@@ -15,10 +15,7 @@
         <header class="topnav">
             <nav class="navi">
                 <ul>
-                    <!-- <li><a href="#" class="logo">Mucha Naibei</a></li> -->
                     <li><a href="#" class="logo"><img src="images/avatar.png" alt="logo"></a></li>
-                    <!-- <li><a class="hamburger" href="#navbar">
-                            <img src="https://ljc-dev.github.io/testing0/ham.svg" alt="menu"></a></li> -->
                     <li><a href="#"><img src="images/Union.png" alt="Union"></a></li>
                 </ul>
             </nav>
@@ -31,14 +28,16 @@
                 <br> hestiate to contact me.
             </p>
 
-            <a href="#" class="con">LET'S CONNECT</a>
+            <ul class="main-socials">
+                <li><a href="#" class="con">LET'S CONNECT</a></li>
 
-            <ul class="socials">
-                <li><a href="#"><img src="images/github.svg" alt="Github"></li>
-                <li><a href="#"><img src="images/Linkedin icon.svg" alt="linkedin"></a></li>
-                <li><a href="#"><img src="images/angellist.svg" alt="angellist"></a></li>
-                <li><a href="#"><img src="images/twitter.svg" alt="twitter"></a></li>
-                <li><a href="#"><img src="images/medium.svg" alt="medium"> </a></li>
+                <ul class="socials">
+                    <li><a href="#"><img src="images/github.svg" alt="Github"></li>
+                    <li><a href="#"><img src="images/Linkedin icon.svg" alt="linkedin"></a></li>
+                    <li><a href="#"><img src="images/angellist.svg" alt="angellist"></a></li>
+                    <li><a href="#"><img src="images/twitter.svg" alt="twitter"></a></li>
+                    <li><a href="#"><img src="images/medium.svg" alt="medium"> </a></li>
+                </ul>
             </ul>
         </section>
 
@@ -182,23 +181,27 @@
             <br> hestiate to contact me
         </p>
 
-        <a href="#" class="con">LET'S CONNECT</a>
+        <ul class="main-soc">
+            <li><a href="#" class="con">LET'S CONNECT</a></li>
 
-        <ul class="socials">
-            <li><a href="#"><img src="images/github.svg" alt="Github"></li>
-            <li><a href="#"><img src="images/Linkedin icon.svg" alt="linkedin"></a></li>
-            <li><a href="#"><img src="images/angellist.svg" alt="angellist"></a></li>
-            <li><a href="#"><img src="images/twitter.svg" alt="twitter"></a></li>
-            <li><a href="#"><img src="images/medium.svg" alt="medium"> </a></li>
+            <ul class="socials">
+                <li><a href="#"><img src="images/github.svg" alt="Github"></li>
+                <li><a href="#"><img src="images/Linkedin icon.svg" alt="linkedin"></a></li>
+                <li><a href="#"><img src="images/angellist.svg" alt="angellist"></a></li>
+                <li><a href="#"><img src="images/twitter.svg" alt="twitter"></a></li>
+                <li><a href="#"><img src="images/medium.svg" alt="medium"> </a></li>
+            </ul>
         </ul>
 
-        <div class="button">
+        <div class="button about-button">
             <button type="button">Get my resume</button>
         </div>
 
         <div class="lang">
             <ul class="lang-head">
-                <li><h3>Languages</h3></li>
+                <li>
+                    <h3>Languages</h3>
+                </li>
                 <li><img src="images/chev-down.png" alt="down-chevron"></li>
             </ul>
 
@@ -210,20 +213,50 @@
 
 
             <ul class="frame">
-                <li><h3>Frameworks</h3></li>
+                <li>
+                    <h3>Frameworks</h3>
+                </li>
                 <li><img src="images/Icon - Chevron - Right - Larger.png" alt="right-chevron"></li>
             </ul>
 
             <img src="images/Separator Bottom.png" alt="separator">
 
             <ul class="skl">
-                <li><h3>Skills</h3></li>
+                <li>
+                    <h3>Skills</h3>
+                </li>
                 <li><img src="images/Icon - Chevron - Right - Larger.png" alt="right-chevron"></li>
             </ul>
 
             <img src="images/Separator Bottom.png" alt="separator">
 
         </div>
+
+        <!-- contact form  -->
+        <section class="contact">
+            <div class="contact-deets">
+                <h2>Contact me</h2>
+                <p>If you have an application you<br> are interested in developing, a<br> feature that you need built or
+                    a<br>
+                    project that needs coding. I'd<br> love to help with it </p>
+            </div>
+
+            <div class="form">
+                <form action="https://formspree.io/f/mqkoqlyk" method="post">
+                    <div class="form-fields">
+                        <input type="text" name="username" placeholder="Enter name" class="name" maxlength="30"
+                            required>
+                        <input type="email" name="email-address" placeholder="Enter email" class="email" required>
+                        <textarea name="comment" placeholder="Write your message here" class="text" maxlength="500"
+                            required></textarea>
+
+                        <button name="submit" class="submit">
+                            Get in touch
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
     </section>
 </body>
 
