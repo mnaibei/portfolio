@@ -8,8 +8,8 @@
 body {
   background: #e5e5e5;
   min-height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
 }
 
 .container {
@@ -561,6 +561,7 @@ h2 {
 .form-fields {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .name{
@@ -586,8 +587,8 @@ h2 {
 }
 
 .align-button{
+  width: 80%;
   display: flex;
-  margin-left: 33px;
 }
 
 .submit{
