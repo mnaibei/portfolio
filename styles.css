@@ -8,14 +8,11 @@
 body {
   background: #e5e5e5;
   min-height: 100vh;
-  /* display: flex;
-  flex-wrap: wrap; */
 }
 
 .container {
   display: flex;
   background: #ffff;
-  /* flex: 1; */
   border-radius: 0.05vw 0.05vw 0.05vw 30vw;
   flex-direction: column;
   background-image: url("images/header-shapes-mobile.png");
@@ -97,36 +94,30 @@ h1 {
 }
 
 .con {
-  /* border: 2px solid; */
   display: flex;
   flex-direction: row;
   color: #7f8cff;
 }
 
-.main-soc{
-  /* border: 2px solid; */
+.main-soc {
   padding: 20px;
 }
 
-.about-button{
+.about-button {
   padding-left: 15px;
 }
 
 .socials {
-  /* border: 2px solid; */
   display: flex;
   align-items: flex-start;
   margin-left: 1vw;
   width: 95%;
   list-style: none;
-  /* padding: 20px; */
 }
 
 .socials li {
   display: flex;
   padding: 15px;
-  /* text-align: left; */
-  /* align-self: flex-start; */
   margin-left: -19px;
 }
 
@@ -417,7 +408,6 @@ h2 {
   display: flex;
   flex-direction: column;
   margin-top: 15vh;
-  /* padding: 20px; */
   background: #fff;
   border-radius: 0.05vw 30vw 0.05vw 0.05vw;
 }
@@ -512,11 +502,11 @@ h2 {
   justify-content: space-between;
 }
 
-.contact{
-  border: 2px solid red;
+/* contact form  */
+.contact {
   display: flex;
   flex-direction: column;
-  background-image:url("images/contact\ form\ shapes-mobile@2x.png"), url("images/Contact-me.png");
+  background-image: url("images/contact\ form\ shapes-mobile@2x.png"), url("images/Contact-me.png");
   background-repeat: no-repeat;
   background-position: right, center;
   margin-top: 100px;
@@ -525,7 +515,7 @@ h2 {
   height: 789px;
 }
 
-.contact-deets{
+.contact-deets {
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
@@ -534,7 +524,7 @@ h2 {
 }
 
 .contact-deets h2 {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -550,28 +540,29 @@ h2 {
   color: #ebebff
 }
 
-.form{
+.form {
   display: flex;
   flex-direction: column;
   margin-top: 30px;
   text-align: center;
   height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-fields {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
-.name{
+.name {
   height: 48px;
   width: 300px;
   border-radius: 8px;
   border: 0px;
 }
 
-.email{
+.email {
   height: 48px;
   width: 300px;
   border-radius: 8px;
@@ -579,19 +570,14 @@ h2 {
   border: 0px;
 }
 
-.text{
+.text {
   margin-top: 20px;
   width: 300px;
   border-radius: 8px;
   height: 150px;
 }
 
-.align-button{
-  width: 80%;
-  display: flex;
-}
-
-.submit{
+.submit {
   margin-top: 20px;
   color: #396df2;
   height: 60px;
