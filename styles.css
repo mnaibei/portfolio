@@ -610,3 +610,12 @@ h2 {
   color: #b3bac5;
   padding: 10px;
 }
+
+.submit:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.submit:active {
+  background-color: #2230d2;
+}
