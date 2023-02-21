@@ -8,6 +8,8 @@
 body {
   background: #e5e5e5;
   min-height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .container {
@@ -510,7 +512,7 @@ h2 {
   background-repeat: no-repeat;
   background-position: right, center;
   margin-top: 100px;
-  background-size: auto 73%, 100% 100%;
+  background-size: auto 83%, 100% 100%;
   width: 100%;
   height: 789px;
 }
@@ -521,6 +523,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-top: -7%;
 }
 
 .contact-deets h2 {
@@ -580,11 +583,16 @@ h2 {
 .submit {
   margin-top: 20px;
   color: #396df2;
-  height: 60px;
-  width: 180px;
+  height: 40px;
+  width: 40%;
   border-radius: 8px;
   background-color: white;
   border: 2px solid #6070ff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
 }
 
 ::placeholder {
