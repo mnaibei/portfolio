@@ -644,7 +644,7 @@ body {
 
 /* dektop version  */
 @media (min-width: 768px) {
-/* page 1  */
+  /* page 1  */
   .container {
     border: 2px solid yellow;
     display: flex;
