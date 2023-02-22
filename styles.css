@@ -644,7 +644,6 @@ body {
 
 /* desktop version  */
 @media (min-width: 768px) {
-
   /* page 1  */
   .container {
     /* border: 2px solid yellow; */
@@ -784,7 +783,6 @@ body {
 
   .work-content {
     display: flex;
-    /* border: 2px solid; */
     align-self: center;
     justify-content: center;
     height: 448px;
@@ -847,7 +845,7 @@ body {
     width: 50%;
     height: 448px;
     display: flex;
-    margin-top: 20px
+    margin-top: 20px;
   }
 
   .ruby {
@@ -868,7 +866,6 @@ body {
   .work-container3 {
     border: 1px solid #cbcdd1;
     display: flex;
-    /* flex-direction: row-reverse; */
     width: 75%;
     height: 580px;
     background: #fff;
@@ -881,13 +878,12 @@ body {
   .desktop-img-2 {
     background-image: url("images/Snapshoot-Portfolio.svg");
     background-repeat: no-repeat;
-    /* border: 2px solid; */
     background-size: cover;
     align-self: center;
     width: 50%;
     height: 448px;
     display: flex;
-    margin-top: 20px
+    margin-top: 20px;
   }
 
   /* card 4  */
@@ -916,29 +912,28 @@ body {
   }
 
   /* about  */
-  .introd{
+  .introd {
     display: flex;
     flex-direction: column;
   }
 
-  .end-about{
+  .end-about {
     width: 35%;
     margin: 25px;
     /* border: 2px solid; */
     padding-left: 20px;
   }
 
-  .end-about h2{
+  .end-about h2 {
     margin-top: 50px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-
   }
 
-  .end-about p{
+  .end-about p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -946,11 +941,11 @@ body {
     line-height: 24px;
   }
 
-  .about-info br{
+  .about-info br {
     display: none;
   }
 
-.lang{
+.lang {
   display: flex;
   flex-direction: column;
   width: 45%;
@@ -970,12 +965,12 @@ body {
 }
 
 /* contact  */
-.contact{
+.contact {
   display: flex;
   flex-direction: column;
 }
 
-.contact-deets{
+.contact-deets {
   margin-top: 20px;
 }
 }
