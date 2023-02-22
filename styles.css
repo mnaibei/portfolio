@@ -642,14 +642,16 @@ body {
   }
 }
 
-/* dektop version  */
+/* desktop version  */
 @media (min-width: 768px) {
+
   /* page 1  */
   .container {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     display: flex;
     flex-direction: column;
     background-color: #fff;
+    border-radius: 0.05vw 0.05vw 0.05vw 10vw;
     background-image: url("images/Header\ bg@2x.png");
     background-size: 100%;
     background-position: 100%;
@@ -743,45 +745,54 @@ body {
     line-height: 28px;
   }
 
-  .main-socials {
-    margin-left: -275px;
-  }
-
-  .socials {
-    margin-left: 1.5px;
-  }
-
   /* card 1  */
   .work-container {
     border: 1px solid #cbcdd1;
     display: flex;
-    justify-content: center;
-    padding: 20px;
-    height: 496px;
+    width: 75%;
+    height: 580px;
     background: #fff;
-  }
-
-  .work-content {
-    height: 448px;
-    margin-top: 50px;
-  }
-
-  .portfolio-img {
-    background-image: url("images/Snapshoot-Portfolio2.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-self: center;
-    width: 70%;
-    height: 448px;
-    display: flex;
-    margin-top: 20px;
+    border-radius: 16px;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
   }
 
   .portfolio-img img {
     display: none;
   }
 
-  .tonic0 {
+  .tonic-def br {
+    display: none;
+  }
+
+  .tonic br {
+    display: none;
+  }
+
+  .desktop-img-0 {
+    /* border: 2px solid; */
+    background-image: url("images/Snapshoot-Portfolio2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+    width: 50%;
+    height: 448px;
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .work-content {
+    display: flex;
+    /* border: 2px solid; */
+    align-self: center;
+    justify-content: center;
+    height: 448px;
+    margin-top: 20px;
+  }
+
+  .tonic0,
+  .tonic {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -808,32 +819,35 @@ body {
     color: #344563;
   }
 
-  .tonic-def br {
-    display: none;
-  }
-
-  .tonic br {
-    display: none;
-  }
-
   /* card 2  */
+
   .work-container2 {
     border: 1px solid #cbcdd1;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
-    padding: 20px;
-    height: 496px;
+    width: 75%;
+    height: 580px;
     background: #fff;
-  }
-
-  .desktop-img-1 {
-    background-image: url("images/Snapshoot-Portfolio-4.svg");
+    border-radius: 16px;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
   }
 
   .tonic {
     height: auto;
     width: auto;
+  }
+
+  .desktop-img-1 {
+    background-image: url("images/Snapshoot-Portfolio-4.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+    width: 50%;
+    height: 448px;
+    display: flex;
+    margin-top: 20px
   }
 
   .ruby {
@@ -854,30 +868,26 @@ body {
   .work-container3 {
     border: 1px solid #cbcdd1;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 20px;
-    height: 496px;
+    /* flex-direction: row-reverse; */
+    width: 75%;
+    height: 580px;
     background: #fff;
+    border-radius: 16px;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
   }
 
   .desktop-img-2 {
     background-image: url("images/Snapshoot-Portfolio.svg");
-  }
-
-  .facebook {
-    width: 215px;
-    height: 85px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    color: #172b4d;
-  }
-
-  .tonic0,
-  .prop {
-    display: none;
+    background-repeat: no-repeat;
+    /* border: 2px solid; */
+    background-size: cover;
+    align-self: center;
+    width: 50%;
+    height: 448px;
+    display: flex;
+    margin-top: 20px
   }
 
   /* card 4  */
@@ -885,33 +895,50 @@ body {
     border: 1px solid #cbcdd1;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
-    padding: 20px;
-    height: 496px;
+    width: 75%;
+    height: 580px;
     background: #fff;
+    border-radius: 16px;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
   }
 
   .desktop-img-3 {
     background-image: url("images/Snapshoot-Portfolio-2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+    width: 50%;
+    height: 448px;
+    display: flex;
+    margin-top: 20px
   }
 
-  .introd {
+  /* about  */
+  .introd{
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
-    width: 100%;
-    align-items: flex-start;
   }
 
-  .introd h2 {
+  .end-about{
+    width: 35%;
+    margin: 25px;
+    /* border: 2px solid; */
+    padding-left: 20px;
+  }
+
+  .end-about h2{
+    margin-top: 50px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
+
   }
 
-  .introd p {
+  .end-about p{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -919,34 +946,36 @@ body {
     line-height: 24px;
   }
 
-  .about-info br {
+  .about-info br{
     display: none;
   }
 
-  .lang {
-    display: flex;
-    width: 650px;
-    margin-top: -460px;
-    margin-left: 400px;
-  }
+.lang{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 400px;
+  align-self: center;
+  justify-content: space-evenly;
+  margin-top: -480px;
+  padding-left: 30px;
+  /* border: 2px solid; */
+}
 
-  .lang-list {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    align-items: flex-start;
-  }
+.lang-list {
+  /* display: flex; */
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+}
 
-  .script,
-  .htm,
-  .cs {
-    display: flex;
-    flex-direction: column;
-    width: 100px;
-    align-items: flex-start;
-  }
+/* contact  */
+.contact{
+  display: flex;
+  flex-direction: column;
+}
 
-  .contact {
-    margin-top: 200px;
-  }
+.contact-deets{
+  margin-top: 20px;
+}
 }
