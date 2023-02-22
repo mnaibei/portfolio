@@ -644,8 +644,7 @@ body {
 
 /* dektop version  */
 @media (min-width: 768px) {
-
-  /* page 1  */
+/* page 1  */
   .container {
     border: 2px solid yellow;
     display: flex;
@@ -685,7 +684,6 @@ body {
   .intro {
     display: flex;
     flex-direction: column;
-    border: 2p/x solid;
     margin-top: 0.001%;
     align-items: center;
     text-align: left;
@@ -730,7 +728,6 @@ body {
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
-    font-size: 48px;
   }
 
   .new-line::before {
@@ -764,13 +761,10 @@ body {
     background: #fff;
   }
 
-
   .work-content {
     height: 448px;
     margin-top: 50px;
   }
-
-
 
   .portfolio-img {
     background-image: url("images/Snapshoot-Portfolio2.svg");
@@ -793,8 +787,7 @@ body {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #091E42;
-
+    color: #091e42;
   }
 
   .prop {
@@ -807,7 +800,7 @@ body {
   }
 
   .tonic-def {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -842,7 +835,6 @@ body {
     height: auto;
     width: auto;
   }
-
 
   .ruby {
     border: 2px;
@@ -883,8 +875,6 @@ body {
     color: #172b4d;
   }
 
-
-
   .tonic0,
   .prop {
     display: none;
@@ -914,7 +904,7 @@ body {
   }
 
   .introd h2 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -922,7 +912,7 @@ body {
   }
 
   .introd p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
