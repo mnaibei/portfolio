@@ -646,7 +646,6 @@ body {
 @media (min-width: 768px) {
   /* page 1  */
   .container {
-    /* border: 2px solid yellow; */
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -670,7 +669,7 @@ body {
     align-items: center;
     text-align: center;
     justify-content: space-evenly;
-    width: 40%;
+    width: 20%;
   }
 
   .desktop-links a {
@@ -686,12 +685,14 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 0.001%;
-    align-items: center;
-    text-align: left;
+    width: 80%;
+    height: 100px;
+    align-items: flex-start;
+    padding-left: 150px;
     justify-content: center;
   }
 
-  .intro br {
+  .intro-p br {
     display: none;
   }
 
@@ -704,7 +705,6 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 60px;
-    margin-left: 20px;
   }
 
   .intro p {
@@ -715,7 +715,6 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    margin-left: 20px;
   }
 
   .next-line::before {
@@ -744,16 +743,20 @@ body {
     line-height: 28px;
   }
 
+  .socials {
+    margin-left: 1.5px;
+  }
+
   /* card 1  */
   .work-container {
     border: 1px solid #cbcdd1;
     display: flex;
     width: 75%;
-    height: 580px;
+    height: 480px;
     background: #fff;
     border-radius: 16px;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
     padding: 20px;
   }
 
@@ -769,22 +772,19 @@ body {
     display: none;
   }
 
-  .desktop-img-0 {
-    /* border: 2px solid; */
+  .desktop-img-0{
     background-image: url("images/Snapshoot-Portfolio2.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
     align-self: center;
-    width: 50%;
+    width: 35%;
     height: 448px;
     display: flex;
     margin-top: 20px;
+    
   }
 
   .work-content {
     display: flex;
     align-self: center;
-    justify-content: center;
     height: 448px;
     margin-top: 20px;
   }
@@ -824,7 +824,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     width: 75%;
-    height: 580px;
+    height: 480px;
     background: #fff;
     border-radius: 16px;
     justify-content: center;
@@ -839,10 +839,8 @@ body {
 
   .desktop-img-1 {
     background-image: url("images/Snapshoot-Portfolio-4.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
     align-self: center;
-    width: 50%;
+    width: 36%;
     height: 448px;
     display: flex;
     margin-top: 20px;
@@ -867,7 +865,7 @@ body {
     border: 1px solid #cbcdd1;
     display: flex;
     width: 75%;
-    height: 580px;
+    height: 480px;
     background: #fff;
     border-radius: 16px;
     justify-content: center;
@@ -877,10 +875,8 @@ body {
 
   .desktop-img-2 {
     background-image: url("images/Snapshoot-Portfolio.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
     align-self: center;
-    width: 50%;
+    width: 36%;
     height: 448px;
     display: flex;
     margin-top: 20px;
@@ -892,7 +888,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     width: 75%;
-    height: 580px;
+    height: 480px;
     background: #fff;
     border-radius: 16px;
     justify-content: center;
@@ -902,10 +898,8 @@ body {
 
   .desktop-img-3 {
     background-image: url("images/Snapshoot-Portfolio-2.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
     align-self: center;
-    width: 50%;
+    width: 36%;
     height: 448px;
     display: flex;
     margin-top: 20px;
@@ -915,12 +909,13 @@ body {
   .introd {
     display: flex;
     flex-direction: column;
+    border-radius: 0.05vw 10vw 0.05vw 0.05vw;
   }
 
   .end-about {
-    width: 35%;
+    width: 50%;
     margin: 25px;
-    padding-left: 20px;
+    padding-left: 40px;
   }
 
   .end-about h2 {
@@ -932,12 +927,15 @@ body {
     line-height: 52px;
   }
 
-  .end-about p {
+  .end-about p{
+    height: 120px;
+    width: 500px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    text-align: justify;
   }
 
   .about-info br {
@@ -952,7 +950,7 @@ body {
     align-self: center;
     justify-content: space-evenly;
     margin-top: -480px;
-    padding-left: 30px;
+    margin-left: 600px;
   }
 
   .lang-list {
@@ -961,13 +959,43 @@ body {
     align-items: flex-start;
   }
 
-  /* contact  */
-  .contact {
+  .script,
+  .htm,
+  .cs {
     display: flex;
     flex-direction: column;
+    width: 100px;
+    align-items: flex-start;
+  }
+
+  /* contact  */
+  .contact {
+    align-items: center;
   }
 
   .contact-deets {
     margin-top: 20px;
+    display: flex;
+    width: 60%;
+  }
+
+  .contact-deets p{
+   width: 100%;
+  }
+
+  .contact-p br{
+    display: none;
+  }
+
+  .form{
+    display: flex;
+    margin-top: -30px;
+    height: auto;
+  }
+
+  .form-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
