@@ -640,7 +640,6 @@ body {
 
 /* desktop version  */
 @media (min-width: 768px) {
-
   /* page 1  */
   .container {
     display: flex;
@@ -772,10 +771,6 @@ body {
     display: none;
   }
 
-  .portfolio-img img {
-    border: 2px solid;
-  }
-
   .desktop-img-0::after {
     content: url("images/Snapshoot-Portfolio2.svg");
   }
@@ -788,7 +783,6 @@ body {
     margin-top: 5px;
     width: 548px;
   }
-
 
   .work-content {
     display: flex;
@@ -861,7 +855,6 @@ body {
     align-self: flex-start;
     margin-top: 5px;
     width: 548px;
-    ;
   }
 
   .ruby {
