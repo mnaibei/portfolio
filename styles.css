@@ -171,7 +171,7 @@ body {
     margin-right: auto;
     padding: 50px;
     gap: 12px;
-    min-height: 552px;
+    /* min-height: 552px; */
     background: #fff;
     border-radius: 16px;
   }
@@ -384,7 +384,7 @@ body {
     margin-right: auto;
     padding: 50px;
     gap: 12px;
-    min-height: 552px;
+    /* min-height: 552px; */
     background: #fff;
     border-radius: 16px;
   }
@@ -403,7 +403,7 @@ body {
     margin-right: auto;
     padding: 50px;
     gap: 12px;
-    min-height: 552px;
+    /* min-height: 552px; */
     background: #fff;
     border-radius: 16px;
   }
@@ -422,7 +422,7 @@ body {
     margin-right: auto;
     padding: 50px;
     gap: 12px;
-    min-height: 552px;
+    /* min-height: 552px; */
     background: #fff;
     border-radius: 16px;
   }
@@ -751,13 +751,16 @@ body {
   .work-container {
     border: 1px solid #cbcdd1;
     display: flex;
-    width: 75%;
+    width: 1100px;
     height: 480px;
     background: #fff;
     border-radius: 16px;
     justify-content: center;
-    gap: 20px;
-    padding: 20px;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .portfolio-img img {
@@ -772,20 +775,31 @@ body {
     display: none;
   }
 
-  .desktop-img-0 {
-    background-image: url("images/Snapshoot-Portfolio2.svg");
-    align-self: center;
-    width: 35%;
-    height: 448px;
-    display: flex;
-    margin-top: 20px;
+  .portfolio-img img{
+    border: 2px solid;
   }
+
+  .desktop-img-0::after{
+    content: url("images/Snapshoot-Portfolio2.svg");
+  }
+
+  .desktop-img-0{
+    height: 453px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 5px;
+    width: 548px;
+  }
+ 
 
   .work-content {
     display: flex;
-    align-self: center;
-    height: 448px;
-    margin-top: 20px;
+    align-self: flex-start;
+    margin-top: 50px;
+    justify-content: space-around;
+    width: 50%;
+    height: 350px;
   }
 
   .tonic0,
@@ -822,13 +836,16 @@ body {
     border: 1px solid #cbcdd1;
     display: flex;
     flex-direction: row-reverse;
-    width: 75%;
+    width: 1100px;
     height: 480px;
     background: #fff;
     border-radius: 16px;
     justify-content: center;
-    gap: 40px;
-    padding: 20px;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .tonic {
@@ -836,13 +853,17 @@ body {
     width: auto;
   }
 
+  .desktop-img-1::after{
+    content: url("images/Snapshoot-Portfolio-4.svg");
+  }
+
   .desktop-img-1 {
-    background-image: url("images/Snapshoot-Portfolio-4.svg");
-    align-self: center;
-    width: 36%;
-    height: 448px;
+    height: 453px;
     display: flex;
-    margin-top: 20px;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 5px;
+    width: 548px;;
   }
 
   .ruby {
@@ -863,22 +884,29 @@ body {
   .work-container3 {
     border: 1px solid #cbcdd1;
     display: flex;
-    width: 75%;
+    width: 1100px;
     height: 480px;
     background: #fff;
     border-radius: 16px;
     justify-content: center;
-    gap: 40px;
-    padding: 20px;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .desktop-img-2::after{
+    content: url("images/Snapshoot-Portfolio.svg");
   }
 
   .desktop-img-2 {
-    background-image: url("images/Snapshoot-Portfolio.svg");
-    align-self: center;
-    width: 36%;
-    height: 448px;
+    height: 453px;
     display: flex;
-    margin-top: 20px;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 5px;
+    width: 548px;
   }
 
   /* card 4  */
@@ -886,22 +914,29 @@ body {
     border: 1px solid #cbcdd1;
     display: flex;
     flex-direction: row-reverse;
-    width: 75%;
+    width: 1100px;
     height: 480px;
     background: #fff;
     border-radius: 16px;
     justify-content: center;
-    gap: 40px;
-    padding: 20px;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .desktop-img-3::after{
+    content: url("images/Snapshoot-Portfolio-2.svg");
   }
 
   .desktop-img-3 {
-    background-image: url("images/Snapshoot-Portfolio-2.svg");
-    align-self: center;
-    width: 36%;
-    height: 448px;
+    height: 453px;
     display: flex;
-    margin-top: 20px;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 5px;
+    width: 548px;
   }
 
   /* about  */
@@ -970,6 +1005,14 @@ body {
   /* contact  */
   .contact {
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/bg-image-desktop.png"), url("images/Contact-me.png");
+    background-repeat: no-repeat;
+    background-position: center, center;
+    margin-top: 100px;
+    background-size: 100% 100%, 100% 100%;
+    height: 789px;
   }
 
   .contact-deets {
