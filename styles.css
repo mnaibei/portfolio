@@ -772,14 +772,13 @@ body {
     display: none;
   }
 
-  .desktop-img-0{
+  .desktop-img-0 {
     background-image: url("images/Snapshoot-Portfolio2.svg");
     align-self: center;
     width: 35%;
     height: 448px;
     display: flex;
     margin-top: 20px;
-    
   }
 
   .work-content {
@@ -927,7 +926,7 @@ body {
     line-height: 52px;
   }
 
-  .end-about p{
+  .end-about p {
     height: 120px;
     width: 500px;
     font-family: 'Poppins', sans-serif;
@@ -979,15 +978,15 @@ body {
     width: 60%;
   }
 
-  .contact-deets p{
-   width: 100%;
+  .contact-deets p {
+    width: 100%;
   }
 
-  .contact-p br{
+  .contact-p br {
     display: none;
   }
 
-  .form{
+  .form {
     display: flex;
     margin-top: -30px;
     height: auto;
