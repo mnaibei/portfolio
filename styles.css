@@ -171,7 +171,6 @@ body {
     margin-right: auto;
     padding: 50px;
     gap: 12px;
-    /* min-height: 552px; */
     background: #fff;
     border-radius: 16px;
   }
@@ -384,7 +383,6 @@ body {
     margin-right: auto;
     padding: 50px;
     gap: 12px;
-    /* min-height: 552px; */
     background: #fff;
     border-radius: 16px;
   }
@@ -403,7 +401,6 @@ body {
     margin-right: auto;
     padding: 50px;
     gap: 12px;
-    /* min-height: 552px; */
     background: #fff;
     border-radius: 16px;
   }
@@ -422,7 +419,6 @@ body {
     margin-right: auto;
     padding: 50px;
     gap: 12px;
-    /* min-height: 552px; */
     background: #fff;
     border-radius: 16px;
   }
@@ -644,6 +640,7 @@ body {
 
 /* desktop version  */
 @media (min-width: 768px) {
+
   /* page 1  */
   .container {
     display: flex;
@@ -775,15 +772,15 @@ body {
     display: none;
   }
 
-  .portfolio-img img{
+  .portfolio-img img {
     border: 2px solid;
   }
 
-  .desktop-img-0::after{
+  .desktop-img-0::after {
     content: url("images/Snapshoot-Portfolio2.svg");
   }
 
-  .desktop-img-0{
+  .desktop-img-0 {
     height: 453px;
     display: flex;
     flex-direction: column;
@@ -791,7 +788,7 @@ body {
     margin-top: 5px;
     width: 548px;
   }
- 
+
 
   .work-content {
     display: flex;
@@ -853,7 +850,7 @@ body {
     width: auto;
   }
 
-  .desktop-img-1::after{
+  .desktop-img-1::after {
     content: url("images/Snapshoot-Portfolio-4.svg");
   }
 
@@ -863,7 +860,8 @@ body {
     flex-direction: column;
     align-self: flex-start;
     margin-top: 5px;
-    width: 548px;;
+    width: 548px;
+    ;
   }
 
   .ruby {
@@ -896,7 +894,7 @@ body {
     padding-bottom: 10px;
   }
 
-  .desktop-img-2::after{
+  .desktop-img-2::after {
     content: url("images/Snapshoot-Portfolio.svg");
   }
 
@@ -926,7 +924,7 @@ body {
     padding-bottom: 10px;
   }
 
-  .desktop-img-3::after{
+  .desktop-img-3::after {
     content: url("images/Snapshoot-Portfolio-2.svg");
   }
 
