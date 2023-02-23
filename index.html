@@ -14,17 +14,21 @@
     <div class="container">
         <header class="topnav">
             <nav class="navi">
-                <ul>
-                    <li><a href="#" class="logo"><img src="images/avatar.png" alt="logo"></a></li>
-                    <li><a href="#"><img src="images/Union.png" alt="Union"></a></li>
+
+                <a href="#" class="logo"><img src="images/avatar.png" alt="logo"></a>
+                <a href="#" class="hamburger"><img src="images/Union.png" alt="Union"></a>
+        
+                <ul class="desktop-links">
+                    <li><a href="#" class="port">Portfolio</a></li>
+                    <li><a href="#" class="abt">About</a></li>
+                    <li><a href="#" class="cntct">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
         <section class="intro">
-            <h1>I'm Mucha <br> Glad to see <br> you!</h1>
-            <p>I'm a software developer! I can help you <br> build a product, feature or website Look <br> through some
-                of my work and <br> experience! If you like what you see and <br> have a project you need coded, don't
+            <h1>I'm Mucha <span class="next-line">Glad to see <br> you!</span></h1>
+            <p class="intro-p">I'm a software developer! I can help you <br> build a product, feature or website. Look <br>through some of my work and <br> experience! If you like what you see and <br> have a project you need</span> coded, don't
                 <br> hestiate to contact me.
             </p>
 
@@ -46,8 +50,9 @@
 
     <!-- card 1 -->
     <section class="work-container">
-        <div class="portfolio-img">
-            <img src="images/Snapshoot-Portfolio-1.png" alt="card-1-image">
+
+        <div class="portfolio-img desktop-img-0">
+            <img src="images/Snapshoot-Portfolio.svg" alt="card-1-image">
         </div>
 
         <div class="work-content">
@@ -64,7 +69,7 @@
             <p class="tonic-def">A daily selection of privately<br> personalized reads; no accounts or<br> sign-ups
                 required.</p>
 
-            <ul class="stack">
+            <ul class="stack stack-desktop">
                 <li class="html">html</li>
                 <li class="css">css</li>
                 <li class="js">javaScript</li>
@@ -76,21 +81,26 @@
         </div>
     </section>
 
-
     <!-- card-2 -->
     <section class="work-container2">
-        <div class="portfolio-img">
+        <div class="portfolio-img desktop-img-1">
             <img src="images/Snapshoot-Portfolio-2.png" alt="card-2-img">
         </div>
 
         <div class="work-content">
 
 
-            <h2 class="tonic">Multi-Post<br>Stories</h2>
+            <h2 class="tonic">Multi-Post<br> Stories</h2>
 
             <ul class="prop">
                 <li class="can">CANOPY</li>
+                
+                <!-- <li class="can2">Facebook</li> -->
+
                 <li class="bac"><img src="images/Counter.png" alt="dot"> Back End Dev</li>
+
+                <!-- <li class="bac"><img src="images/Counter.png" alt="dot"> Full Stack Dev</li> -->
+
                 <li class="num"><img src="images/Counter.png" alt="dot"> 2015</li>
             </ul>
 
@@ -99,6 +109,7 @@
 
             <ul class="stack">
                 <li class="html">html</li>
+                <li class="ruby">Ruby on rails</li>
                 <li class="css">css</li>
                 <li class="js">javaScript</li>
             </ul>
@@ -111,7 +122,7 @@
 
     <!-- card 3 -->
     <section class="work-container3">
-        <div class="portfolio-img">
+        <div class="portfolio-img desktop-img-2">
             <img src="images/Snapshoot-Portfolio-3.png" alt="card-3-img">
         </div>
 
@@ -120,17 +131,26 @@
 
             <h2 class="tonic0">Tonic</h2>
 
+            <!-- <h2 class="facebook">Facebook 360</h2> -->
+
             <ul class="prop">
                 <li class="can">CANOPY</li>
                 <li class="bac"><img src="images/Counter.png" alt="dot"> Back End Dev</li>
                 <li class="num"><img src="images/Counter.png" alt="dot"> 2015</li>
             </ul>
 
+            <!-- <ul class="desktop-prop">
+                <li class="can">Facebook</li>
+                <li class="bac"><img src="images/Counter.png" alt="dot"> Full Stack Dev</li>
+                <li class="num"><img src="images/Counter.png" alt="dot"> 2015</li>
+            </ul> -->
+
             <p class="tonic-def">A daily selection of privately<br> personalized reads; no accounts or<br> sign-ups
                 required.</p>
 
             <ul class="stack">
                 <li class="html">html</li>
+                <li class="ruby">Ruby on rails</li>
                 <li class="css">css</li>
                 <li class="js">javaScript</li>
             </ul>
@@ -143,14 +163,14 @@
 
     <!-- card-4 -->
     <section class="work-container4">
-        <div class="portfolio-img">
+        <div class="portfolio-img desktop-img-3">
             <img src="images/Snapshoot-Portfolio-4.png" alt="card-4-img">
         </div>
 
         <div class="work-content">
 
 
-            <h2 class="tonic">Multi-Post<br>Stories</h2>
+            <h2 class="tonic">Multi-Post<br> Stories</h2>
 
             <ul class="prop">
                 <li class="can">CANOPY</li>
@@ -163,6 +183,7 @@
 
             <ul class="stack">
                 <li class="html">html</li>
+                <li class="ruby">Ruby on rails</li>
                 <li class="css">css</li>
                 <li class="js">javaScript</li>
             </ul>
@@ -174,11 +195,10 @@
     </section>
 
     <!-- about me  -->
-    <section class="introd">
+    <section class="introd ">
+        <div class="end-about">
         <h2>About<br> Myself</h2>
-        <p>I'm a software developer! I can help you <br> build a product, feature or website Look <br> through some
-            of my work and <br> experience! If you like what you see and <br> have a project you need coded, don't
-            <br> hestiate to contact me
+        <p class="about-info">I'm a software developer! I can help you <br>build a product, feature or website Look <br>through some of my work and <br>experience! If you like what you see and <br>have a project you need coded, don't <br>hestiate to contact me
         </p>
 
         <ul class="main-soc">
@@ -196,7 +216,7 @@
         <div class="button about-button">
             <button type="button">Get my resume</button>
         </div>
-
+        </div>
         <div class="lang">
             <ul class="lang-head">
                 <li>
@@ -231,12 +251,12 @@
             <img src="images/Separator Bottom.png" alt="separator">
 
         </div>
-
+    
         <!-- contact form  -->
         <section class="contact">
             <div class="contact-deets">
                 <h2>Contact me</h2>
-                <p>If you have an application you<br> are interested in developing, a<br> feature that you need built or
+                <p class="contact-p">If you have an application you<br> are interested in developing, a<br> feature that you need built or
                     a<br>
                     project that needs coding. I'd<br> love to help with it </p>
             </div>
