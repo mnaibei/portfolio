@@ -899,7 +899,7 @@ body {
   }
 
   .card-hover:hover {
-    transition: translate(20px,20px);
+    transition: translate(20px, 20px);
   }
 
   .desktop-img-2::after {
