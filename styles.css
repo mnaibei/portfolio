@@ -687,6 +687,7 @@ body {
     background-color: #6070ff;
     color: #333;
   }
+
   .intro {
     display: flex;
     flex-direction: column;
@@ -1069,5 +1070,4 @@ body {
   .text:focus {
     background-color: #808080;
   }
-
 }
