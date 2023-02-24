@@ -1031,4 +1031,29 @@ body {
     flex-direction: column;
     align-items: center;
   }
+
+  .name {
+    transition: all 0.5s ease-out;
+  }
+
+  .name:focus {
+    background-color: #808080;
+  }
+
+  .email {
+    transition: all 0.5s ease-out;
+  }
+
+  .email:focus {
+    background-color: #808080;
+  }
+
+  .text {
+    transition: all 0.5s ease-out;
+  }
+
+  .text:focus {
+    background-color: #808080;
+  }
+
 }
