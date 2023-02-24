@@ -677,6 +677,16 @@ body {
     color: #344563;
   }
 
+  .nav-item {
+    transition: all 0.5s ease-out;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .nav-item:hover {
+    background-color: #6070ff;
+    color: #333;
+  }
   .intro {
     display: flex;
     flex-direction: column;
@@ -885,6 +895,10 @@ body {
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  .card-hover:hover {
+    transition: translate(20px,20px);
   }
 
   .desktop-img-2::after {
