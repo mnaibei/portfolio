@@ -48,9 +48,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://mnaibei.github.io/portfolio/)
 
-<p align="right">(<a href="https://mnaibei.github.io/portfolio/">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
