@@ -121,7 +121,8 @@ body {
   }
 
   .main-soc {
-    padding: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
   }
 
   .about-button {
@@ -133,6 +134,15 @@ body {
     align-items: flex-start;
     margin-left: 1vw;
     width: 95%;
+    list-style: none;
+    padding-left: 20px;
+  }
+
+  .socials-main{
+    display: flex;
+    align-items: flex-start;
+    width: 95%;
+    gap: 5px;
     list-style: none;
   }
 
