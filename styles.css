@@ -160,6 +160,7 @@ body {
 
   a:hover {
     fill: blue;
+    cursor: pointer;
   }
 
   .socials a:active {
@@ -374,6 +375,7 @@ body {
   .button button:hover {
     background-color: #6070ff;
     color: #fff;
+    cursor: pointer;
   }
 
   .button button:active {
@@ -642,6 +644,7 @@ body {
   .submit:hover {
     background-color: #6070ff;
     color: #fff;
+    cursor: pointer;
   }
 
   .submit:active {
@@ -697,6 +700,7 @@ body {
   .nav-item:hover {
     background-color: #6070ff;
     color: #333;
+    cursor: pointer;
   }
 
   .intro {
