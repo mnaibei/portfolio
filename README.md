@@ -39,6 +39,9 @@
 
 > This is my first portfolio to showcase my work
 
+## :video_camera:	LOOM Walkthrough
+> https://www.loom.com/share/ea91c33ee20c45929965b7d22d572cbc
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
