@@ -16,13 +16,24 @@
             <nav class="navi">
 
                 <a href="#" class="logo"><img src="images/avatar.png" alt="logo"></a>
-                <a href="#" class="hamburger"><img src="images/Union.png" alt="Union"></a>
         
-                <ul class="desktop-links">
-                    <li class="nav-item"><a href="#" class="port">Portfolio</a></li>
-                    <li class="nav-item"><a href="#" class="abt">About</a></li>
-                    <li class="nav-item"><a href="#" class="cntct">Contact</a></li>
+                <ul class="nav-menu">
+                    <li class="nav-item-1"><a href="#work-container" class="nav-link-mobile">Portfolio</a></li>
+                    <li class="nav-item-2"><a href="#about" class="nav-link-mobile">About</a></li>
+                    <li class="nav-item-3"><a href="#contact" class="nav-link-mobile">Contact</a></li>
                 </ul>
+
+                <ul class="desktop-links">
+                    <li class="nav-item-desktop"><a href="#" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item-desktop"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item-desktop"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </nav>
         </header>
 
@@ -50,7 +61,7 @@
     </div>
 
     <!-- card 1 -->
-    <section class="work-container">
+    <section id="work-container" class="work-container">
 
         <div class="portfolio-img desktop-img-0">
             <img src="images/Snapshoot-Portfolio.svg" alt="card-1-image">
@@ -95,12 +106,8 @@
 
             <ul class="prop">
                 <li class="can">CANOPY</li>
-                
-                <!-- <li class="can2">Facebook</li> -->
 
                 <li class="bac"><img src="images/Counter.png" alt="dot"> Back End Dev</li>
-
-                <!-- <li class="bac"><img src="images/Counter.png" alt="dot"> Full Stack Dev</li> -->
 
                 <li class="num"><img src="images/Counter.png" alt="dot"> 2015</li>
             </ul>
@@ -132,19 +139,11 @@
 
             <h2 class="tonic0">Tonic</h2>
 
-            <!-- <h2 class="facebook">Facebook 360</h2> -->
-
             <ul class="prop">
                 <li class="can">CANOPY</li>
                 <li class="bac"><img src="images/Counter.png" alt="dot"> Back End Dev</li>
                 <li class="num"><img src="images/Counter.png" alt="dot"> 2015</li>
             </ul>
-
-            <!-- <ul class="desktop-prop">
-                <li class="can">Facebook</li>
-                <li class="bac"><img src="images/Counter.png" alt="dot"> Full Stack Dev</li>
-                <li class="num"><img src="images/Counter.png" alt="dot"> 2015</li>
-            </ul> -->
 
             <p class="tonic-def">A daily selection of privately<br> personalized reads; no accounts or<br> sign-ups
                 required.</p>
@@ -196,7 +195,7 @@
     </section>
 
     <!-- about me  -->
-    <section class="introd ">
+    <section id="about" class="introd ">
         <div class="end-about">
         <h2>About<br> Myself</h2>
         <p class="about-info">I'm a software developer! I can help you <br>build a product, feature or website Look <br>through some of my work and <br>experience! If you like what you see and <br>have a project you need coded, don't <br>hestiate to contact me
@@ -254,7 +253,7 @@
         </div>
     
         <!-- contact form  -->
-        <section class="contact">
+        <section id="contact" class="contact">
             <div class="contact-deets">
                 <h2>Contact me</h2>
                 <p class="contact-p">If you have an application you<br> are interested in developing, a<br> feature that you need built or
@@ -279,6 +278,7 @@
             </div>
         </section>
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
