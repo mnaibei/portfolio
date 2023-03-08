@@ -311,12 +311,14 @@ a:hover {
 
 .modal-button {
   display: flex;
-
-  /* justify-content: space-between; */
+  justify-content: center;
   margin-top: 20px;
-
-  /* flex: 1; */
+  gap: 20px;
   overflow: hidden;
+}
+
+.line{
+  width: 100%;
 }
 
 #modalBtn-1,
