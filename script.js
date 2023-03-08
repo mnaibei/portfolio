@@ -33,20 +33,21 @@ const cards = [
   },
 ];
 
-// projects dynamic 
+// projects dynamic
 // const cardsContainer = document.getElementById('cards')
-const cardsContainer = document.querySelector('.portfolio-container')
-cards.map((cardContent) => {
-
+const cardsContainer = document.querySelector('.portfolio-container');
+cards.forEach((cardContent) => {
   const item = document.createElement('work-container-main');
 
-  item.classList.add('work-container');
-  item.classList.add('work-container-desktop')
+  item.classList.add('cards-held-here');
+  // item.classList.add('work-container-desktop');
   const content = document.createElement('work-container');
 
   content.innerHTML = `
+<section class="work-container work-container-desktop">
   <div class="portfolio-img desktop-img-0">
-    <img src="${cardContent.image}" alt="${cardContent.name}">
+
+    <img src="${cardContent.image}" alt="${cardContent.name}" class="full-size">
   </div>
   <div class="work-content">
         <h2 class="tonic0 tonic">${cardContent.name}</h2>
@@ -66,6 +67,7 @@ cards.map((cardContent) => {
         <a href="${cardContent.preview}" ><button id="modalBtn-1" type="button" class="testButton">See Project</button></a>
         </div>
       </div>
+    </section>
   `;
 
   const modal = document.createElement('div');
@@ -104,37 +106,26 @@ cards.map((cardContent) => {
   </div> 
   `;
 
-
   modal.appendChild(modalContent);
   item.appendChild(content);
   item.appendChild(modal);
   cardsContainer.appendChild(item);
 
-
-  //popup interaction
-  const openModal = item.querySelector('.testButton')
+  // popup interaction
+  const openModal = item.querySelector('.testButton');
   const closeModal = item.querySelector('.closeBtn');
-
-  console.log(closeModal);
 
   openModal.addEventListener('click', (event) => {
     modal.classList.add('modal');
     modal.style.display = 'block';
     event.preventDefault();
-    console.log('WTF')
   });
 
   closeModal.addEventListener('click', () => {
-    console.log('clicked')
     modal.classList.remove('modal');
     modal.style.display = 'none';
   });
-
-
 });
-
-
-
 
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
@@ -148,7 +139,3 @@ document.querySelectorAll('.nav-menu').forEach((n) => n.addEventListener('click'
   hamburger.classList.remove('active');
   navMenu.classList.remove('active');
 }));
-
-
-
-
