@@ -88,20 +88,26 @@ cards.forEach((cardContent) => {
      <img src="${cardContent.image}" alt="${cardContent.name}">
     </div>
 
-    <p class="tonic-def-modal">${cardContent.desc}</p>
-      <ul class="stack stack-desktop">
+    <div class="tonic-def-modal">
+    <p>${cardContent.desc}</p>
+    </div>
+    <div class="alignment">
+      <ul class="stack-modal stack-desktop">
       <li class="html">html</li>
       <li class="css">css</li>
-      <li class="js">javaScript</li>
+      <li class="js">javaScript</li><br />
+      <li class="git">github</li>
+      <li class="ruby">ruby</li>
+      <li class="boot">Bootstraps</li>
     </ul>
 
-    <img src="images/Separator-Bottom.png" alt="separator">
+    <img src="images/Separator-Bottom.png" alt="separator" class="line">
 
     <div class="modal-button">
-      <a href="${cardContent.preview}" ><button id="modalBtn-1" type="button">See live <img src="images/modal-button-icon-1.svg" alt="modal-icon"></button></a>
+      <a href="${cardContent.preview}" ><button id="modalBtn-0" type="button">See live <img src="images/modal-button-icon-1.svg" alt="modal-icon"></button></a>
       <a href="${cardContent.preview}" ><button id="modalBtn-1" type="button">See Source <img src="images/modal-button-icon-github.svg" alt="modal-icon-git"></button></a>
     </div>
-
+    </div>
     </div>
   </div> 
   `;
