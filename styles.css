@@ -13,7 +13,7 @@ body {
   max-width: 100%;
 }
 
-@media (min-width: 375px) {
+/* @media (min-width: 375px) { */
   .container {
     display: flex;
     background: #ffff;
@@ -233,6 +233,9 @@ body {
   /* end of page 1 styling */
 
   /* card 1 styling */
+.margin-top{
+  margin-top: 100vh;
+}
   .work-container {
     border: 1px solid #cbcdd1;
     display: grid;
@@ -241,7 +244,7 @@ body {
     align-content: center;
     text-align: left;
     width: 95%;
-    margin-top: 110vh;
+    margin-top: 15vh;
     margin-left: auto;
     margin-right: auto;
     padding: 50px;
@@ -250,7 +253,107 @@ body {
     border-radius: 16px;
   }
 
-  .portfolio-img {
+  .modal{
+    position: fixed;
+    display: none;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .work-content-modal {
+    border: 1px solid #cbcdd1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 20px;
+    gap: 12px;
+    background: #fff;
+    border-radius: 16px;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+  }
+
+  .portfolio-modal-img img{
+    width: 100%;
+    padding: 10px;
+    /* height: 220px; */
+    align-self: center;
+  }
+
+  .tonic-def-modal {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    text-align: justify;
+  }
+
+  .prop-modal{
+    display: flex;
+    margin-top: -25px;
+  }
+
+  .tonic0-modal{
+    margin-bottom: 30px;
+  }
+
+  .modal-button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  #modalBtn-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #396df2;
+    height: 60px;
+    width: 175px;
+    border-radius: 8px;
+    background-color: white;
+    border: 2px solid #6070ff;
+    cursor: pointer;
+  }
+
+  .closeBtn{
+    text-align: right;
+    font-size: 30px;
+    color: #67798E;
+    cursor: pointer;
+  }
+
+  .closeBtn:hover{
+    color:black
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .portfolio-img{
     width: 339px;
     height: 220px;
     border-radius: 8px;
@@ -285,7 +388,7 @@ body {
     justify-content: flex-start;
   }
 
-  .tonic0 {
+  .tonic0, .tonic0-modal {
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -712,7 +815,7 @@ body {
   .submit:active {
     background-color: #2230d2;
   }
-}
+/* } */
 
 /* desktop version  */
 @media (min-width: 768px) {
@@ -837,20 +940,26 @@ body {
   }
 
   /* card 1  */
-  .work-container {
+  .work-container-desktop {
     border: 1px solid #cbcdd1;
+    /* border: 5px solid; */
     display: flex;
+    /* display: grid; */
+    /* grid-template-rows: ; */
     width: 1100px;
     height: 480px;
     background: #fff;
     border-radius: 16px;
-    justify-content: center;
+    /* justify-items: center; */
     gap: 10px;
+    justify-content: center;
+    
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  
 
   .portfolio-img img {
     display: none;
@@ -864,26 +973,45 @@ body {
     display: none;
   }
 
-  .desktop-img-0::after {
+  /* .desktop-img-0::after {
+    content: url("images/Snapshoot-Portfolio2.svg");
+  } */
+
+  .portfolio-img::after {
     content: url("images/Snapshoot-Portfolio2.svg");
   }
 
-  .desktop-img-0 {
+  /* .desktop-img-0 {
     height: 453px;
     display: flex;
     flex-direction: column;
     align-self: flex-start;
     margin-top: 5px;
     width: 548px;
+  } */
+
+  .portfolio-img {
+    height: 453px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 5px;
+    margin-bottom: -320px;
+    margin-left: -290px;
+    width: 548px;
   }
 
   .work-content {
     display: flex;
-    align-self: flex-start;
-    margin-top: 50px;
-    justify-content: space-around;
+    /* border: 2px solid red; */
+    /* align-self: flex-end; */
+    /* margin-top: 50px; */
+    float: right;
+    margin-right: -100px;
+    margin-top: -100px;
+    /* justify-content: center; */
     width: 50%;
-    height: 350px;
+    /* height: 350px; */
   }
 
   .tonic0,
