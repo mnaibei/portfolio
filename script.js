@@ -34,13 +34,11 @@ const cards = [
 ];
 
 // projects dynamic
-// const cardsContainer = document.getElementById('cards')
 const cardsContainer = document.querySelector('.portfolio-container');
 cards.forEach((cardContent) => {
   const item = document.createElement('work-container-main');
 
   item.classList.add('cards-held-here');
-  // item.classList.add('work-container-desktop');
   const content = document.createElement('work-container');
 
   content.innerHTML = `
