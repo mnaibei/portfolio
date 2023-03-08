@@ -1,6 +1,6 @@
 const cards = [
   {
-    image: 'images/Snapshoot-Portfolio.svg',
+    image: 'images/Snapshoot-Portfolio-1.png',
     name: 'Tonic',
     preview: '',
     code: '',
