@@ -158,3 +158,33 @@ form.addEventListener('submit', (e) => {
     small.innerHTML = '';
   }
 });
+
+// local storage
+window.onload = () => {
+  // Check if localstorage is supported.
+  if (localStorage) {
+    // Add an event listener for form submissions
+    document.getElementById('submission').addEventListener('submit', () => {
+      // Get the value of target fields.
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const text = document.getElementById('text').value;
+
+      // store key,values in array
+      const items = {
+        name,
+        email,
+        text,
+      };
+      // Save the items to localStorage.
+      localStorage.setItem('data', JSON.stringify(items)); // make inputs to strings
+    });
+
+    const obj = JSON.parse(localStorage.getItem('data'));// parse string data
+    if (obj !== 'undefined' || obj !== 'null') { // check if fields are empty or undefined
+      document.getElementById('name').value = obj.name; // to populate input fields use .value
+      document.getElementById('email').value = obj.email;
+      document.getElementById('text').value = obj.text;
+    }
+  }
+};
