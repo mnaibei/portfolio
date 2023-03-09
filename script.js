@@ -184,6 +184,7 @@ window.onload = () => {
     if (obj !== 'undefined' || obj !== 'null') { // check if fields are empty or undefined
       document.getElementById('name').value = obj.name; // to populate input fields use .value
       document.getElementById('email').value = obj.email;
+      document.getElementById('text').value = obj.text;
     }
   }
 };
