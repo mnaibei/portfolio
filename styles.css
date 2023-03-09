@@ -820,6 +820,12 @@ h2 {
   background-color: #2230d2;
 }
 
+small {
+  bottom: 0;
+  left: 0;
+  color: #e74c3c;
+}
+
 /* desktop version  */
 @media (min-width: 768px) {
   /* page 1  */
@@ -1199,7 +1205,7 @@ h2 {
   .form {
     display: flex;
     margin-top: -30px;
-    height: auto;
+    height: 100%;
   }
 
   .form-fields {
@@ -1218,10 +1224,12 @@ h2 {
 
   .email {
     transition: all 0.5s ease-out;
+    transition: bottom 0.3s;
   }
 
   .email:focus {
     background-color: #808080;
+    transition: bottom 0.3s;
   }
 
   .text {
@@ -1230,5 +1238,16 @@ h2 {
 
   .text:focus {
     background-color: #808080;
+  }
+
+  .submission small {
+    bottom: 0;
+    left: 0;
+    color: #e74c3c;
+  }
+
+  .submission.error small {
+    border-color: #e74c3c;
+    visibility: visible;
   }
 }
