@@ -131,6 +131,7 @@ cards.forEach((cardContent) => {
   });
 });
 
+// hamburger menu
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 
@@ -143,3 +144,17 @@ document.querySelectorAll('.nav-menu').forEach((n) => n.addEventListener('click'
   hamburger.classList.remove('active');
   navMenu.classList.remove('active');
 }));
+
+// form validation
+const form = document.querySelector('form');
+const email = document.getElementById('email');
+const small = document.querySelector('small');
+
+form.addEventListener('submit', (e) => {
+  if (/[A-Z]/.test(email.value)) {
+    small.innerHTML = 'Please enter email in small letters';
+    e.preventDefault();
+  } else {
+    small.innerHTML = '';
+  }
+});
