@@ -180,5 +180,10 @@ window.onload = () => {
       localStorage.setItem('data', JSON.stringify(items)); // make inputs to strings
     });
 
+    const obj = JSON.parse(localStorage.getItem('data'));// parse string data
+    if (obj !== 'undefined' || obj !== 'null') { // check if fields are empty or undefined
+      document.getElementById('name').value = obj.name; // to populate input fields use .value
+      document.getElementById('email').value = obj.email;
+    }
   }
 };
